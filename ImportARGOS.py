@@ -61,6 +61,11 @@ while lineString:
         obsLat = line2Data[2]
         obsLon= line2Data[5]
 
+        # Extract the date, time, and LC values
+        obsDate = lineData[3]
+        obsTime = lineData[4]
+        obsLC   = lineData[7]
+
         #Try to convert the coordinates to numbers
         try:
         
